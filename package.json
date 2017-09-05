@@ -1,0 +1,22 @@
+{
+  "name": "eureka-client",
+  "version": "1.0.0",
+  "description": "simple eureka client in node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strachowski/node-eureka-client.git"
+  },
+  "author": "Roman Strachowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strachowski/node-eureka-client/issues"
+  },
+  "homepage": "https://github.com/strachowski/node-eureka-client#readme",
+  "dependencies": {
+    "eureka-js-client": "^4.3.0"
+  }
+}
