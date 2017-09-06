@@ -1,4 +1,8 @@
 const Eureka = require('eureka-js-client').Eureka;
+const express = require('express')
+const app = express()
+
+
 
 var port = Math.floor(Math.random() * 99) + 8800  ;
 
@@ -27,4 +31,15 @@ const client = new Eureka({
   },
 });
 
+//Start eureka client and register
 client.start();
+
+
+
+app.get('/', function (req, res) {
+  res.send('Hello from eureka client '+port+'!')
+})
+
+app.listen(port, 'localhost', function() {
+  console.log('Running on port: '+port);
+});

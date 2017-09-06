@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/strachowski/node-eureka-client#readme",
   "dependencies": {
-    "eureka-js-client": "^4.3.0"
+    "eureka-js-client": "^4.3.0",
+    "express": "^4.15.4"
   }
 }
