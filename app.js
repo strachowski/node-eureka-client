@@ -38,7 +38,7 @@ client.start();
 
 
 app.get('/', function (req, res) {
-  res.send('Hello from eureka client '+port+'!')
+  res.send('{ "Host": "localhost", "Port": '+port+' }');
 })
 
 app.listen(port, 'localhost', function() {
