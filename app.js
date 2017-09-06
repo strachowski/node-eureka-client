@@ -17,6 +17,7 @@ const client = new Eureka({
         '$': port,
         '@enabled': true,
       },
+    statusPageUrl: 'http://localhost:'+port+'/',
     vipAddress: 'jq.test.something.com',
     dataCenterInfo: {
         '@class': 'com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo',
